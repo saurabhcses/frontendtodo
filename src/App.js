@@ -6,7 +6,7 @@ import Register from './components/Register';
 import { AuthProvider, useAuth } from './context/AuthContext';
 
 // Set up axios defaults for authenticated requests
-axios.defaults.baseURL = 'https://fullstacttodo.onrender.com';
+axios.defaults.baseURL = 'https://fullstacttodo-2.onrender.com';
 
 // Todo component
 const TodoApp = () => {
